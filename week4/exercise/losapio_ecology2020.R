@@ -4,13 +4,14 @@
 
 #%#
 # load R packages
-library(car)
+library(car) 
 library(effects)
 library(emmeans)
 library(igraph)
 library(lme4)
 library(picante)
 library(vegan)
+library(tidyverse)
 
 # import data
 diversity_3200 <- read.csv("diversity_3200.csv", head=T)
